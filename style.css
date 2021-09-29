@@ -1142,18 +1142,18 @@ form textarea {
       padding-top: 300px; } }
 
 .branding {
-  background: white;
+  background: rgba(11, 10, 11, 0.8);
   color: white;
   display: block;
   position: absolute;
-  left: 15px;
-  padding: 40px;
+  /* left: 15px; */
+  /* padding: 40px; */
   text-align: center;
   top: 0; }
   .branding .site-title {
     font-size: 20px;
     font-size: 1.4285714286em;
-    margin: 10px 0 5px;
+    /* margin: 10px 0 5px; */
     font-weight: 400; }
   .branding .site-description {
     font-size: 13px;
@@ -1499,6 +1499,11 @@ form textarea {
     background-repeat: no-repeat;
     /* margin-bottom: 100px; */
     }
+  .branding{
+    
+
+
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -1525,6 +1530,9 @@ form textarea {
       background-repeat: no-repeat;
       /* margin-bottom: 100px; */
       }
+    .branding img{
+      width: 80px;
+      }
 }
 
 @media screen and (max-width: 360px) {
@@ -1538,6 +1546,10 @@ form textarea {
     background-repeat: no-repeat;
     /* margin-bottom: 100px; */
     }
+    
+    .branding img{
+      width: 60px;
+      }
 
 }
 

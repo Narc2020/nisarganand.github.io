@@ -1428,26 +1428,7 @@ form textarea {
     .site-footer .container p {
       margin: 20px 0 50px; }
 
-.social-links a {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  padding-top: 10px;
-  font-size: 18px;
-  font-size: 1.2857142857em;
-  display: inline-block;
-  margin: 0 5px;
-  text-align: center;
-  color: white;
-  line-height: normal; }
-  .social-links a.facebook {
-    background-color: #204385; }
-  .social-links a.twitter {
-    background-color: #2aa9e0; }
-  .social-links a.google-plus {
-    background-color: #d3492c; }
-  .social-links a.pinterest {
-    background-color: #ca2128; }
+/*  */
 
 
   /* footer form css */
@@ -1513,8 +1494,8 @@ form textarea {
     position: relative;
     /* min-height: 360px;*/
     min-height: 760px; 
-    background-image: url('images/Banner.gif');
-    background-size: 992px 700px;
+    background-image: url('images/960x360.gif');
+    background-size: 970px 360px;
     background-repeat: no-repeat;
     /* margin-bottom: 100px; */
     }
@@ -1539,10 +1520,8 @@ form textarea {
 /* header banner image */
     .site-header {
       position: relative;
-      /* min-height: 360px;
-      min-height: 100px; */
-      background-image: url('images/Phn-Ban.gif');
-      background-size: 640px 600px;
+      background-image: url('images/750x360.gif');
+      background-size: 750px 360px;
       background-repeat: no-repeat;
       /* margin-bottom: 100px; */
       }
@@ -1554,7 +1533,7 @@ form textarea {
     position: relative;
     /* min-height: 360px;
     min-height: 100px; */
-    background-image: url('images/Phn-Ban.gif');
+    background-image: url('images/360x360.gif');
     background-size: 360px 300px;
     background-repeat: no-repeat;
     /* margin-bottom: 100px; */

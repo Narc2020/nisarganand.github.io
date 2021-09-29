@@ -1126,6 +1126,7 @@ form textarea {
 .site-header {
   position: relative;
   min-height: 760px;
+  background-image: url('images/Banner.gif');
   background-size: cover;
   margin-bottom: 100px;
   *zoom: 1; }
@@ -1523,4 +1524,13 @@ form textarea {
       margin-left: 5%;
       
     }
+
+/* header banner image */
+    .site-header {
+      position: relative;
+      min-height: 760px;
+      background-image: url('images/Phn-Ban.gif');
+      background-size: cover;
+      margin-bottom: 100px;
+      *zoom: 1; }
 }

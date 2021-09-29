@@ -1488,19 +1488,23 @@ form textarea {
   }  
   .field-css{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px auto;
   }
   .field-css input{
     width: 80%;
-    margin-left: 5%;
+   
   }
 
   .field-submit{
     width: 100%;
-    margin-left: 5%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin:5px auto;
   }
 }
 
@@ -1509,7 +1513,14 @@ form textarea {
     width: 100%;
     padding: 10px;
     }
+
   .field-css{
       width: 100%;
+    }
+
+  .field-submit{
+      width: 100%;
+      margin-left: 5%;
+      
     }
 }

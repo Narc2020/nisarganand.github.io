@@ -1528,7 +1528,7 @@ form textarea {
 /* header banner image */
     .site-header {
       position: relative;
-      min-height: 760px;
+     
       background-image: url('images/Phn-Ban.gif');
       background-size: cover;
       margin-bottom: 100px;

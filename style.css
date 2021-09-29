@@ -1460,7 +1460,10 @@ form textarea {
   .formdiv-css{background: #262322;
   width: 100%;
   padding: 30px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .form-css{
  display: flex;
@@ -1470,21 +1473,34 @@ form textarea {
 /* form-media-css */
 @media screen and (max-width: 992px) {
   .formdiv-css{background: #262322;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     }
   .form-css{
     width: 100%;
     display: block;
+    /* justify-content: center;
+    align-items: center; */
   }  
   .field-css{
     width: 100%;
   }
   .field-css input{
     width: 80%;
+    margin-left: 5%;
+  }
+
+  .field-submit{
+    width: 100%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
   }
 }
 

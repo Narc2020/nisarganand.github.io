@@ -1569,7 +1569,7 @@ form textarea {
        /* background-size: cover; */
     }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
 
   .site-header {
        background-image:url('images/webbanner350x300.png') ;

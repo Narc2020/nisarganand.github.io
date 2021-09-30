@@ -1534,7 +1534,11 @@ form textarea {
 @media screen and (max-width: 360px) {
 
   .site-header {
-    
+    /* position: relative;
+    background-image: url('images/360x360.gif');
+    background-size: 360px 300px;
+    background-repeat: no-repeat;
+    margin-bottom: 100px; */
     }
     
     .branding img{
@@ -1543,6 +1547,19 @@ form textarea {
     .post-detail{
         background-image:url('images/Mobile-plot.jpg');
     }
+
+}
+@media screen and (max-width: 988px) {
+
+  .site-header {
+       background-image:url('images/webbanner.png') ;
+       background-size: 988px 300px;
+    background-repeat: no-repeat;
+       /* background-size: cover; */
+    }
+    
+    
+    
 
 }
 

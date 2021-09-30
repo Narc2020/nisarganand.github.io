@@ -1452,8 +1452,10 @@ form textarea {
  display: flex;
 }
 
-
-/* form-media-css */
+.post-detail{
+  background-image:url('images/Layout.jpg');
+}
+/* costum-media-css */
 @media screen and (max-width: 992px) {
   .formdiv-css{background: #262322;
     width: 100%;
@@ -1500,11 +1502,9 @@ form textarea {
     background-repeat: no-repeat;
     /* margin-bottom: 100px; */
     }
-  .branding{
-    
-
-
-    }
+  .post-detail{
+    background-image:url('images/Mobile-plot.jpg');
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -1534,6 +1534,9 @@ form textarea {
     .branding img{
       width: 80px;
       }
+      .post-detail{
+        background-image:url('images/Mobile-plot.jpg');
+      }
 }
 
 @media screen and (max-width: 360px) {
@@ -1550,6 +1553,9 @@ form textarea {
     
     .branding img{
       width: 60px;
+      }
+      .post-detail{
+        background-image:url('images/Mobile-plot.jpg');
       }
 
 }

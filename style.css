@@ -1557,10 +1557,24 @@ form textarea {
     background-repeat: no-repeat;
        /* background-size: cover; */
     }
-    
-    
-    
-
 }
 
 
+@media screen and (max-width: 640px) {
+
+  .site-header {
+       background-image:url('images/webbanner640x300.png') ;
+       background-size: 640px 300px;
+    background-repeat: no-repeat;
+       /* background-size: cover; */
+    }
+}
+@media screen and (max-width: 300px) {
+
+  .site-header {
+       background-image:url('images/webbanner350x300.png') ;
+       background-size: 350px 300px;
+    background-repeat: no-repeat;
+       /* background-size: cover; */
+    }
+}

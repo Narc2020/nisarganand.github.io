@@ -1148,6 +1148,7 @@ form textarea {
   position: absolute;
   /* left: 15px; */
   /* padding: 40px; */
+  padding: 10px;
   text-align: center;
   top: 0; }
   .branding .site-title {
